@@ -1,7 +1,7 @@
 # Press the green button in the gutter to run the script.
 
 
-def day1Part1():
+def part1():
     count = 0
     prev = 99999
     with open('resources/input1.txt') as f:
@@ -15,7 +15,7 @@ def day1Part1():
     print(count)
 
 
-def day1Part2():
+def part2():
     count = 0
     prev1 = 99999
     prev2 = 99999
@@ -36,5 +36,5 @@ def day1Part2():
 
 
 if __name__ == '__main__':
-    day1Part1()
-    day1Part2()
+    part1()
+    part2()
