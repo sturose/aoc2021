@@ -82,5 +82,5 @@ def find_path2(node, connections, chain):
 
 
 if __name__ == '__main__':
-    #part1()
+    part1()
     part2()
